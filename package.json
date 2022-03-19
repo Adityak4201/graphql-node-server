@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "graphql NodeJS server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Adityak4201/graphql-node-server.git"
+  },
+  "keywords": [
+    "graphql",
+    "nodejs",
+    "query-language",
+    "express",
+    "mongodb"
+  ],
+  "author": "Adityak4201",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adityak4201/graphql-node-server/issues"
+  },
+  "homepage": "https://github.com/Adityak4201/graphql-node-server#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
